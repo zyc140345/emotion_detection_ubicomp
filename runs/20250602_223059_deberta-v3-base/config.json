@@ -1,0 +1,22 @@
+{
+  "dataset_path": "./tweet_emotions.csv",
+  "model_name": "microsoft/deberta-v3-base",
+  "max_length": 128,
+  "batch_size": 32,
+  "eval_steps": 500,
+  "lr": 0.0002,
+  "warmup_ratio": 0.06,
+  "max_epochs": 10,
+  "weight_decay": 0.01,
+  "fp16": true,
+  "use_lora": true,
+  "lora_r": 16,
+  "lora_alpha": 32.0,
+  "lora_dropout": 0.05,
+  "loss": "weighted_ce",
+  "gamma": 2.0,
+  "label_smoothing": 0.0,
+  "use_fgm": false,
+  "over_sampling": false,
+  "seed": 42
+}

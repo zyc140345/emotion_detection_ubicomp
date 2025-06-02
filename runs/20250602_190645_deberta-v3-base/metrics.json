@@ -1,0 +1,9 @@
+{
+  "test_loss": 1.8520869016647339,
+  "test_accuracy": 0.362625,
+  "test_f1_macro": 0.2244215322156809,
+  "test_runtime": 4.0391,
+  "test_samples_per_second": 1980.643,
+  "test_steps_per_second": 61.895,
+  "epoch": 4.0
+}
